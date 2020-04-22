@@ -1,18 +1,13 @@
-TypeScript Hello World Demo
-===========================
+TypeScript Typesafe Nested Property Access Demo
+==============================================
+
+```
+get(user, 'aaa', 'bbb', 'ccc')
+```
+
+https://codewithstyle.info/Deep-property-access-in-TypeScript/
 
 ```
 npm install
 npm run demo
 ```
-
-Note:
-
-`esModuleInterop` is recommended to set to `true`,
-since we can have consistent importing syntax with babel,
-always use:
-
-```
-import some from 'some'
-```
-
